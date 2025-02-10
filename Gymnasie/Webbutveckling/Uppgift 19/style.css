@@ -1,0 +1,32 @@
+header, footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+header {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+body {
+    background-color: grey;
+    margin: auto;
+    max-width: 60rem;
+}
+
+main {
+    background-color: white;
+    padding: 1rem;
+}

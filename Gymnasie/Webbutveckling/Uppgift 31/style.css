@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    color: yellow;
+    margin-left: 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+header, .maincontainer {
+    max-width: 65rem;
+    margin: auto;
+}
+
+.maincontainer {
+    display: flex;
+    background-color: grey;
+}
+
+main, aside{
+    margin: 1rem;
+}
+
+.artikel, aside {
+    background-color: white;
+    border: solid 1px black;
+    padding: 1rem;
+}
+
+main {
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+main div {
+    margin-bottom: 1rem;
+}
+
+aside {
+    min-width: 15rem;
+}
+
+aside ul {
+    padding: 1rem;
+}
+
+aside h3 {
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+}
+
+aside h4 {
+    color: red;
+    margin: 0;
+}
+
+aside li {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px)
+{
+    .maincontainer {
+        flex-flow: column;
+    }
+}
+

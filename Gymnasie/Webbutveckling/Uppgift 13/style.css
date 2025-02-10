@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: slategray;
+    font-family: 'Chilanka', cursive;
+    font-size: 1.5rem;
+}
+
+.navcontainer img {
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.navcontainer {
+    padding: 1rem;
+    background-color: darkslategray;
+    margin-bottom: 1rem;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 60rem;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+nav {
+    max-width: 60rem;
+    margin: auto;
+}

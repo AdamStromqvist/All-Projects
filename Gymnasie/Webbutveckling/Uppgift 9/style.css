@@ -1,0 +1,30 @@
+.redtext {
+    color: red;
+}
+
+p {
+    color: gray;
+}
+
+.block {
+    width: 200px;
+    height: 100px;
+    margin: 40px;
+    color: darkblue;
+    background-color: white;
+}
+
+.greeninlineblock {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 60px;
+    width: 200px;
+    height: 100px;
+}
+
+.salmoninlineblock {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightsalmon;
+}

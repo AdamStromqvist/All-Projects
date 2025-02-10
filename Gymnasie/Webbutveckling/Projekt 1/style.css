@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: slategray;
+    font-size: 1.5rem;
+}
+
+.navcontainer img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.navcontainer {
+    padding: 1rem;
+    background-color: darkslateblue;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Peddana', serif;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 60rem;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+nav {
+    max-width: 60rem;
+    margin: auto;
+}

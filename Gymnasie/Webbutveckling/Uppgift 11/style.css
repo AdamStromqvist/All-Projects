@@ -1,0 +1,40 @@
+.ruta1 {
+    width: 10rem;
+    padding: 2rem;
+    background-color: lightcoral;
+}
+
+.ruta2, .ruta3 {
+    width: 15rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.ruta2 {
+    background-color: lightskyblue;
+}
+
+.ruta3 {
+    background-color: lightgreen;
+    box-sizing: border-box;
+}
+
+.ruta4, .ruta5, .ruta6 {
+    width: 33.33%;
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.ruta4 {
+    background-color: lightsteelblue;
+}
+
+.ruta5 {
+    background-color: mediumslateblue;
+}
+
+.ruta6 {
+    background-color: lightpink;
+}

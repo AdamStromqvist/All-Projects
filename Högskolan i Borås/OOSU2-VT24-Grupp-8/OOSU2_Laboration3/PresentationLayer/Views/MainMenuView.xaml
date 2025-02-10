@@ -1,0 +1,26 @@
+﻿<Window x:Class="OOSU2_Laboration3.PresentationLayer.Views.MainMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOSU2_Laboration3.PresentationLayer.Views"
+        mc:Ignorable="d"
+        Title="MainMenuView" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Main Menu" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <Button Content="Patient Controler" Command="{Binding OpenPatientHandlerCommand}" Margin="5" Height="40"/>
+            <Button Content="Doctor Appointment Controler" Command="{Binding OpenVisitHandlerCommand}" Margin="5" Height="40"/>
+            <Button Content="Diagnosis Controler" Command="{Binding OpenDiagnosisHandlerCommand}" Margin="5" Height="40"/>
+            <Button Content="Medecine Prescription Controler" Command="{Binding OpenPrescriptionHandlerCommand}" Margin="5" Height="40"/>
+            <Button Content="Exit Program" Command="{Binding ShutdownCommand}" Margin="5" Height="40"/>
+        </StackPanel>
+    </Grid>
+</Window>

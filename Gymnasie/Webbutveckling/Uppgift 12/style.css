@@ -1,0 +1,42 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.mainruta {
+    max-width: 60rem;
+    margin: auto;
+    border-style: dashed;
+    padding: 1rem;
+    background-color: white;
+}
+ 
+h1 {
+    font-family: 'Mansalva', cursive;
+}
+ 
+ 
+.ruta1 {
+    border: red solid 5px;
+    border-bottom-style: none;
+    margin: 5rem;
+    padding: 2rem;
+}
+ 
+.ruta2 {
+    border: solid green 2px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 1rem;
+    width: 17rem;
+    margin: 1rem;
+}
+ 
+.ruta3 {
+    border-style: groove;
+    border-color: blue;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+}

@@ -1,0 +1,21 @@
+h1 {
+    color: white;
+    background-color: red;
+}
+
+p {
+    color: gray;
+}
+
+h2 {
+    color: white;
+    background-color: green;
+}
+
+.greentext {
+    color: green;
+}
+
+.redtext {
+    color: red;
+}

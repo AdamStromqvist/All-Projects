@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.DiagnosisForm" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PresentationLayer\DiagnosisForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.DoctorAppointmentForm" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PresentationLayer\DoctorAppointmentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.LoginForm" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAJAAEACBAAQCCAAIAAACAQAAAAIAAAA=</HashCode>
+      <FileName>PresentationLayer\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.MainForm" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAKAgIAIAIASACAAiAAAIAAAAAAAADAAAAAI=</HashCode>
+      <FileName>PresentationLayer\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.MedicinePrescriptionForm" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PresentationLayer\MedicinePrescriptionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.PatientForm" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgEBAAAESgAgAAIAICMSCACAEAAAADAEAJAAEAIAQw=</HashCode>
+      <FileName>PresentationLayer\PatientForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.PresentationLayer.ViewAllForm" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PresentationLayer\ViewAllForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.BusinessLayer.EmployeeService" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\EmployeeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.BusinessLayer.PatientService" Collapsed="true">
+    <Position X="3.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAgAgAAAAAAAAAAABAAAAAAQAAAA=</HashCode>
+      <FileName>BusinessLayer\PatientService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.BusinessLayer.ViewAllService" Collapsed="true">
+    <Position X="1" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\ViewAllService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.BusinessLayer.DoctorAppointmentService" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DoctorAppointmentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.BusinessLayer.DiagnosisService" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DiagnosisService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.BusinessLayer.MedicinePrescriptionService" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\MedicinePrescriptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.DataLayer.UnitOfWork" Collapsed="true">
+    <Position X="5.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAUAAACAABAAAAAAAAAAACAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.DataLayer.Repository&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAIBAAAAAAABAEAAAAIAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DataLayer\Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.DataLayer.PatientManagementContext" Collapsed="true">
+    <Position X="8" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAAAQAAAAAAAAAAAAAAGAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\DbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.DataLayer.PatientManagementContextFactory" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\PatientManagmentContextFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektOOSU2_Test.EntetiesLayer.Diagnosis" Collapsed="true">
+    <Position X="0.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAQAAAAAAAAAAAAAAAAAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>EntetiesLayer\Diagnosis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.EntetiesLayer.DoctorAppointment" Collapsed="true">
+    <Position X="3" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAQAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAQA=</HashCode>
+      <FileName>EntetiesLayer\DoctorAppointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.EntetiesLayer.Employee" Collapsed="true">
+    <Position X="5.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAgAAAAAEA=</HashCode>
+      <FileName>EntetiesLayer\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.EntetiesLayer.MedicinePrescription" Collapsed="true">
+    <Position X="8" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAACAAAAIAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>EntetiesLayer\MedicinePrescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektOOSU2_Test.EntetiesLayer.Patient" Collapsed="true">
+    <Position X="10.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAAAAAAAAAAAAAAAAAAgAACAAAAAgAAAAE=</HashCode>
+      <FileName>EntetiesLayer\Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ProjektOOSU2_Test.BusinessLayer.IEmployeeService" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\EmployeeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.BusinessLayer.IPatientService" Collapsed="true">
+    <Position X="3.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAgAAAAAAAAAAABAAAAAAQAAAA=</HashCode>
+      <FileName>BusinessLayer\PatientService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.BusinessLayer.IViewAllService" Collapsed="true">
+    <Position X="1" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\ViewAllService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.BusinessLayer.IDoctorAppointmentService" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DoctorAppointmentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.BusinessLayer.IDiagnosisService" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DiagnosisService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.BusinessLayer.IMedicinePrescriptionService" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\MedicinePrescriptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.DataLayer.IUnitOfWork" Collapsed="true">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAUAAAAAAAAAAAAAAAAAACAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjektOOSU2_Test.DataLayer.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAAAAAAABAEAAAAIAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DataLayer\Repository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,1590 @@
+body {
+    margin: auto;
+    background-color: black;
+    max-width: 100%;
+}
+
+.bakgrundsbild {
+    background-color: grey;
+    max-width: 100%;
+    margin: auto;
+    height: 130rem;
+    background-image: url(tabby-5946499_960_720.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    filter: blur(8px);
+    margin-bottom: 0;
+}
+
+header {
+    background-color: aquamarine;
+    margin-bottom: 0;
+    height: 4rem;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(77, 146, 123);
+
+}
+
+#hamburger-icon {
+    display: none;
+}
+
+a {
+    color: black;
+    font-size: 1.3rem;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+ 
+nav a:hover {
+    background-color: #e67e22;
+}
+
+
+
+
+.rubrikStartsida {
+    margin: 0;
+    text-align: center;
+    padding: 3rem;
+    font-size: 10rem;
+    text-shadow: 1rem 1rem 0.5rem black;
+    color: rgb(0, 214, 143);
+    border-bottom: 2px solid black;
+    font-family: 'Newsreader', serif;
+}
+
+.blurRubrik {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    position: absolute;
+    top: 33rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    padding: 1.2rem;
+    text-align: center;
+    height: 20rem;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.startsidaInfocontainer {
+    max-width: 50rem;
+    background-color: white;
+    position: absolute;
+    top: 55rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.4rem;
+    border: 1rem double rgba(0, 214, 143);
+    margin: 0;
+    border-radius: 2rem;
+}
+
+.infoTextStartsida {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.flexContainer {
+    background-color: none;
+    position: absolute;
+    max-width: 110rem;
+    top: 75rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container1 {
+    background-color: white;
+    border: 2px solid black;
+    width: 35rem;
+    height: 20rem;
+    margin: 0%;
+    margin-right: 2rem;
+}
+
+.rubrikContainers {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    font-family: 'Newsreader', serif;
+}
+
+.textContainers {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.läsmerHär {
+    max-width: 50rem;
+    background-color: white;
+    position: absolute;
+    top: 100rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.4rem;
+    border: 1rem double rgba(0, 214, 143);
+    margin: 0;
+    border-radius: 2rem;
+}
+
+.flexLänkcontainer {
+    position: absolute;
+    max-width: 100rem;
+    top: 120rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.länkKryptovaluta {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    width: 12rem;
+    border: solid 3px black;
+    height: 16rem;
+    margin: 8rem;
+}
+ 
+.card img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    height: 10rem;
+}
+ 
+.cardinfo {
+    padding: 1rem;
+}
+ 
+.topinfo {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.länkKryptovaluta :hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+.fotRubrik {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Newsreader', serif;
+}
+
+.fotText {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.bakgrundsbildBTC {
+    background-color: grey;
+    max-width: 100%;
+    margin: auto;
+    height: 110rem;
+    background-image: url(btc-backimage.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    filter: blur(8px);
+    margin-bottom: 0;
+}
+
+.bakgrundsbildETH {
+    background-color: grey;
+    max-width: 100%;
+    margin: auto;
+    height: 110rem;
+    background-image: url(ethereum-coin-on-edge-wo.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    filter: blur(8px);
+    margin-bottom: 0;
+}
+
+.blurRubrikBTC, .blurRubrikETH {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    position: absolute;
+    top: 30rem;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    max-width: 65rem;
+    padding: 1rem;
+    text-align: center;
+    height: 13rem;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.rubrikBTC, .rubrikETH {
+    margin: 0;
+    text-align: center;
+    padding: 2rem;
+    font-size: 6rem;
+    text-shadow: 1rem 1rem 0.5rem black;
+    color: rgb(0, 214, 143);
+    border-bottom: 2px solid black;
+    font-family: 'Newsreader', serif;
+}
+
+.BTC, .ETH {
+    top: 70rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 120rem;
+    position: absolute;
+}
+
+.flexContainerETH, .flexContainerBTC {
+    position: absolute;
+    top: 70rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 120rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.litenContainer1 {
+    width: 25rem;
+    height: 60rem;
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 30rem;
+    border: 4px solid black;
+}
+
+.litenContainer2 {
+    width: 25rem;
+    height: 60rem;
+    background-color: white;
+    margin-right: 2rem;
+    margin-left: 30rem;
+    border: 4px solid black;
+}
+
+.storContainer {
+    width: 50rem;
+    height: 60rem;
+    background-color: white;
+    margin: 3rem;
+    border: 4px solid black;
+}
+
+.litenContainer1 img {
+    max-width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+}
+
+.litenContainer2 img {
+    max-width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+}
+
+.rubrikContainer {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Newsreader', serif;
+}
+
+.bildTextBTC, .bildTextETH {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.textLitencontainer, .textStorcontainer {
+    padding: 1rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+table, th, td {
+    border: solid 2px black;
+    padding: 0.2rem;
+    max-width: 20rem;
+    font-size: 1.2rem;
+}
+
+table {
+    margin: 2.5rem;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(217, 255, 242);
+}
+
+
+
+@media (max-width: 1440px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 160rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        font-size: 8rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 60rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 15rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 100%;
+        top: 84rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card {
+        background-color: white;
+        width: 12rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 6rem;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 50rem;
+        background-color: white;
+        position: absolute;
+        top: 120rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        width: 25rem;
+        height: 25rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+        margin: 2rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 60em;
+        top: 150rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .bakgrundsbildBTC {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 170rem;
+        background-image: url(btc-backimage.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+    
+    .bakgrundsbildETH {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 170rem;
+        background-image: url(ethereum-coin-on-edge-wo.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+    
+    .blurRubrikBTC, .blurRubrikETH {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 20rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 65rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 15rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    
+    .rubrikBTC, .rubrikETH {
+        margin: 0;
+        text-align: center;
+        padding: 3rem;
+        font-size: 6rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .BTC, .ETH {
+        top: 40rem;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        max-width: 90rem;
+        position: absolute;
+    }
+
+    .flexContainerETH, .flexContainerBTC {
+        position: absolute;
+        top: 142rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 120rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .litenContainer1 {
+        width: 25rem;
+        height: 60rem;
+        background-color: white;
+        margin-left: 1rem;
+        margin-right: 4rem;
+        border: 4px solid black;
+    }
+    
+    .litenContainer2 {
+        width: 25rem;
+        height: 60rem;
+        background-color: white;
+        margin-right: 1rem;
+        margin-left: 4rem;
+        border: 4px solid black;
+    }
+
+
+    
+
+
+}
+
+@media (max-width: 1320px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 160rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        font-size: 8rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 60rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 15rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 100%;
+        top: 85rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card {
+        background-color: white;
+        width: 12rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 6rem;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 50rem;
+        background-color: white;
+        position: absolute;
+        top: 120rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        width: 25rem;
+        height: 30rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+        margin: 2rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 60em;
+        top: 145rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    
+
+
+}
+
+@media (max-width: 1125px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 160rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        font-size: 8rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 60rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 15rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 100%;
+        top: 85rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card {
+        background-color: white;
+        width: 12rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 6rem;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 50rem;
+        background-color: white;
+        position: absolute;
+        top: 120rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        width: 25rem;
+        height: 35rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+        margin: 2rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 60em;
+        top: 148rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    
+
+
+}
+
+@media (max-width: 1024px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 1024px;
+        margin: auto;
+        height: 190rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        font-size: 5rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 25rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 50rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 13rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 1024px;
+        top: 105rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: white;
+        width: 12rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 6rem;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 50rem;
+        background-color: white;
+        position: absolute;
+        top: 160rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        max-width: 35rem;
+        height: 23rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 60em;
+        top: 183rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .bakgrundsbildBTC, .bakgrundsbildETH {
+        height: 170rem;
+    }
+
+    .ETH, .BTC {
+        top: 30rem;
+    }
+
+    .flexContainerETH, .flexContainerBTC {
+        position: absolute;
+        top: 140rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 120rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .storContainer {
+        width: 40rem;
+        height: 67rem;
+    }
+
+    .litenContainer1 {
+        width: 20rem;
+        height: 67rem;
+        background-color: white;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        border: 4px solid black;
+    }
+    
+    .litenContainer2 {
+        width: 20rem;
+        height: 67rem;
+        background-color: white;
+        margin-right: 1rem;
+        margin-left: 2rem;
+        border: 4px solid black;
+    }
+    
+    .blurRubrikBTC, .blurRubrikETH {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%, -120%);
+        max-width: 65rem;
+        padding: 1rem;
+        text-align: center;
+        height: 8rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    
+    .rubrikBTC, .rubrikETH {
+        margin: 0;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 4rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 170rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        font-size: 5rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 25rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 40rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 13rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .startsidaInfocontainer {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 44rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+    
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 768px;
+        top: 93rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 142rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        max-width: 35rem;
+        height: 23rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 768px;
+        top: 164rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        background-color: white;
+        width: 12rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 3rem;
+    }
+
+
+
+    .bakgrundsbildBTC, .bakgrundsbildETH {
+        height: 270rem;
+    }
+
+    .flexContainerETH, .flexContainerBTC {
+        position: absolute;
+        top: 200rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 120rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .storContainer {
+        width: 410px;
+        height: 103rem;
+        margin: 0;
+    }
+
+    .litenContainer1 {
+        width: 410px;
+        height: 60rem;
+        background-color: white;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border: 4px solid black;
+    }
+    
+    .litenContainer2 {
+        width: 410px;
+        height: 60rem;
+        background-color: white;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        border: 4px solid black;
+        margin-top: 3rem;
+    }
+    
+    .blurRubrikBTC, .blurRubrikETH {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%, -120%);
+        max-width: 65rem;
+        padding: 1rem;
+        text-align: center;
+        height: 8rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    
+    .rubrikBTC, .rubrikETH {
+        margin: 0;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 4rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+
+    nav {
+        flex-direction: column;
+        display: none;
+    }
+ 
+    .show-nav {
+        display: flex;
+    }
+ 
+    #hamburger-icon {
+        display: block;
+    }
+
+
+
+    
+}
+
+@media (max-width: 650px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 180rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        font-size: 3rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 23rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 40rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 10rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .startsidaInfocontainer {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 37rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+    
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 768px;
+        top: 87rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 140rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        max-width: 35rem;
+        height: 23rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 768px;
+        top: 170rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        background-color: white;
+        width: 9rem;
+        border: solid 3px black;
+        height: 18rem;
+        margin: 1.6rem;
+    }
+
+
+
+
+    
+}
+
+@media (max-width: 425px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 235rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 1rem;
+        font-size: 2.5rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 22rem;
+        left: 50%;
+        max-width: 40rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 7rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .startsidaInfocontainer {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 35rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+    
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 768px;
+        top: 110rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 195rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        max-width: 15rem;
+        height: 41rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 768px;
+        top: 225rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        background-color: white;
+        width: 9rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 1rem;
+    }
+
+    .topinfo {
+        font-size: 1rem;
+    }
+
+
+    .bakgrundsbildBTC, .bakgrundsbildETH {
+        height: 310rem;
+    }
+
+    .flexContainerETH, .flexContainerBTC {
+        position: absolute;
+        top: 245rem;
+        left: 50%;
+        max-width: 120rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .storContainer {
+        width: 310px;
+        height: 140rem;
+        margin: 0;
+    }
+
+    .litenContainer1 {
+        max-width: 310px;
+        height: 73rem;
+        background-color: white;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border: 4px solid black;
+    }
+    
+    .litenContainer2 {
+        max-width: 310px;
+        height: 64rem;
+        background-color: white;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        border: 4px solid black;
+    }
+    
+    .blurRubrikBTC, .blurRubrikETH {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%, -120%);
+        max-width: 65rem;
+        padding: 1rem;
+        text-align: center;
+        height: 6rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    
+    .rubrikBTC, .rubrikETH {
+        margin: 0;
+        text-align: center;
+        padding: 1rem;
+        font-size: 3rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+
+    table {
+        margin: 1rem;
+        border-collapse: collapse;
+    }
+
+    
+}
+
+@media (max-width: 375px) {
+    .bakgrundsbild {
+        background-color: grey;
+        max-width: 100%;
+        margin: auto;
+        height: 250rem;
+        background-image: url(tabby-5946499_960_720.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        filter: blur(8px);
+        margin-bottom: 0;
+    }
+
+    .rubrikStartsida {
+        margin: 0;
+        text-align: center;
+        padding: 1rem;
+        font-size: 2.1rem;
+        text-shadow: 1rem 1rem 0.5rem black;
+        color: rgb(0, 214, 143);
+        border-bottom: 2px solid black;
+        font-family: 'Newsreader', serif;
+    }
+    
+    .blurRubrik {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid white;
+        position: absolute;
+        top: 25rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 40rem;
+        padding: 1.2rem;
+        text-align: center;
+        height: 7rem;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .startsidaInfocontainer {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 40rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+    
+
+    .flexContainer {
+        background-color: none;
+        position: absolute;
+        max-width: 768px;
+        top: 120rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        background-color: aquamarine;
+        padding: 3rem;
+    }
+
+    .läsmerHär {
+        max-width: 40rem;
+        background-color: white;
+        position: absolute;
+        top: 210rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4rem;
+        border: 1rem double rgba(0, 214, 143);
+        margin: 0;
+        border-radius: 2rem;
+    }
+
+    .container1 {
+        background-color: white;
+        border: 2px solid black;
+        max-width: 15rem;
+        height: 41rem;
+        margin: 0%;
+        margin-bottom: 3rem;
+    }
+
+    .flexLänkcontainer {
+        position: absolute;
+        max-width: 768px;
+        top: 240rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        background-color: white;
+        width: 9rem;
+        border: solid 3px black;
+        height: 16rem;
+        margin: 0.2rem;
+    }
+
+    .topinfo {
+        font-size: 1rem;
+    }
+
+    
+}

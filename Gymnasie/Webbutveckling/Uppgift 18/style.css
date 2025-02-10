@@ -1,0 +1,32 @@
+.container1, .container2, .container3 {
+    border: solid 1px black;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+ 
+.container1 {
+    background-color: lightskyblue;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+ 
+.container2 {
+    background-color: lightgreen;
+    justify-content: flex-end;
+    align-items: center;
+}
+ 
+.container3 {
+    background-color: mediumpurple;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+ 
+.child {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: dashed 2px black;
+    width: 10rem;    
+}

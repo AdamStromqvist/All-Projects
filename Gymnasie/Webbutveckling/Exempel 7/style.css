@@ -1,0 +1,20 @@
+.main {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+p, h1 {
+    color: gray;
+}
+
+body {
+    background-color: pink;
+}
+
+.minicenter {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
+  </head>
+ 
+ 
+ 
+  <body>
+    
+
+    <header>
+      <img src="icons8-menu-26.png" alt="Meny-ikon" onclick="toggleNav()" id="hamburger-icon">
+    </header>
+ 
+    <nav id="nav">
+      <a href="index.html">Startsida</a>
+      <a href="btc.html">Bitcoin</a>
+      <a href="eth.html">Ethereum</a>
+    </nav>
+
+    <div class="bakgrundsbildBTC"></div>
+
+    <div class="blurRubrikBTC">
+
+        <h1 class="rubrikBTC">Bitcoin</h1>
+  
+      </div>
+
+      <main class="BTC">
+
+
+          <div class="storContainer">
+              <h1 class="rubrikContainer">Om Bitcoin</h1>
+              <p class="textStorcontainer">Bitcoin (av "bit" och engelska "coin" = mynt) är en implementation av kryptovaluta, en digital valuta, skapad 2009 av Satoshi Nakamoto (troligtvis en pseudonym), vars huvudsyfte är att möjliggöra betalningar över Internet direkt mellan användare utan någon inblandning från tredje part. Till skillnad från många andra valutor förlitar sig inte bitcoin på någon central utfärdare i form av exempelvis en centralbank, vilket skyddar mot politisk påverkan och monopolliknande betalsystem. För att upprätthålla säkerhet och sekretess förlitar sig bitcoin på kryptografi och använder sig av en distribuerad databas utspridd över de noder som utgör P2P-nätverket för att journalföra transaktioner. Detta syftar även till att exempelvis säkerställa att valutan endast kan spenderas av dess ägare samt oåterkalleligen försvinner från nämnda ägares digitala "plånbok" och därmed bara kan spenderas en gång.</p><br>
+              <p class="textStorcontainer">
+                Bitcoins design tillåter mer eller mindre anonymt ägande och överförande av värden genom P2P-nätverket. Varje användares bitcoin sparas i en plånboksfil tillsammans med ett godtyckligt antal bitcoinadresser. Plånboksfilen kan sparas på användarens dator eller hos en tredje part som erbjuder en sådan tjänst. I båda fallen kan bitcoin skickas över Internet till vem som helst med en bitcoinadress. Bitcoins P2P-topologi och avsaknad av central administration gör det omöjligt för exempelvis myndigheter att artificiellt manipulera värdet av bitcoin eller framkalla inflation genom att producera fler av dem.
+              </p><br>
+              <p class="textStorcontainer">Tekniken bakom bitcoin beskrevs först i Satoshi Nakamotos vitbok från 2009. Den bygger på två andra förslag på alternativa elektroniska valutor: Wei Dais förslag b-money och Nick Szabos förslag Bitgold. Bitcoin är en P2P-valuta, dvs ett P2P-nätverk håller reda på alla transaktioner i en distribuerad databas. Det finns ingen central server som håller reda på dem eller avgör vilka som är giltiga. Varje deltagare (nod) i P2P-nätverket lagrar transaktionerna, och kan gå in i eller lämna P2P-nätverket utan att skapa problem. Tidigare förslag på P2P-valutor led av dubbelspenderingsproblemet (eng: double spending problem), dvs att samma pengar kunde överföras till två olika ställen, och att nätverket då måste ha en metod för att avgöra vilken transaktion som var giltig. Satoshi Nakamoto löste problemet med hjälp av en så kallad blockkedja (eng: block chain). Varje transaktion lagras i ett block med data, och alla block hänger ihop i en följd (kedja). Om det skulle skapas två "konkurrerande" block (två block med samma föregångare i kedjan), accepterar noderna det block som majoriteten av deras grannar har accepterat, och bygger nästa block i kedjan på detta. Om det sker en förgrening av kedjan, fattar nätverket alltså ett beslut om vilken gren som är giltig (och därmed vilken transaktion som är giltig). Beslutet sprids snabbt genom P2P-nätverket, vilket gör det praktiskt omöjligt att ändra. För att göra det svårare för en angripare att tillverka block som stöder deras egen gren av blockkedjan, används en distribuerad tidserver och tidskrävande beräkningar för att skapa ett block, så kallat bevis-på-arbete (eng: proof-of-work).</p>
+          </div>
+          
+
+      </main>
+
+      <div class="flexContainerBTC">
+
+        <div class="litenContainer1">
+          <h1 class="rubrikContainer">Skapare</h1>
+          <div class="diagramBTC"><img src="Satoshi.jpg" alt="BIld"></div>
+          <p class="textLitencontainer">Satoshi Nakamoto är namnet som används av den förmodade pseudonymen person eller personer som utvecklat bitcoin, författat bitcoin-vitboken och skapat och distribuerat bitcoins ursprungliga referensimplementering. Som en del av implementeringen utformade Nakamoto också den första blockchain-databasen. I processen var Nakamoto den första som löste det dubbla utgiftsproblemet för digital valuta med hjälp av ett peer-to-peer-nätverk. Nakamoto var aktiv i utvecklingen av bitcoin fram till december 2010. Många människor har hävdat, eller har hävdats, vara Nakamoto.</p><br>
+          <p class="textLitencontainer">
+              Nakamoto uppgav att arbetet med att skriva koden för bitcoin började 2007. Den 18 augusti 2008 registrerade han eller en kollega domännamnet bitcoin.org och skapade en webbplats på den adressen. Den 31 oktober publicerade Nakamoto en vitbok på kryptografi-e-postlistan på metzdowd.com som beskriver en digital kryptovaluta med titeln "Bitcoin: A Peer-to-Peer Electronic Cash System".</p>
+        </div>
+
+        <div class="litenContainer2">
+          <h1 class="rubrikContainer">Pris diagram</h1>
+          <a href="https://coinmarketcap.com/currencies/bitcoin/"><div class="diagramBTC"><img src="DiagramBTC.png" alt="Diagram Bitcoin"></div></a>
+          <p class="bildTextBTC">Diagrammet ovan är taget från "Coinmarketcap".</p>
+          <p class="textLitencontainer">Ovan syns ett diagram över Bitcoins värde. Klicka på bilden för att komma till "Coinmarketcap" och se diagrammet i realtid.</p><br>
+          <p class="textLitencontainer">Nedan kan du se Bitcoins värde från år 2014 till år 2021:</p>
+          <table>
+            <tr>
+                <th>Årtal</th><th>Värde i US$</th>
+            </tr>
+            <tr>
+                <td>2014</td><td>Ca. $760</td>
+            </tr>
+            <tr>
+                <td>2015</td><td>Ca. $310</td>
+            </tr>
+            <tr>
+                <td>2016</td><td>Ca. $420</td>
+            </tr>
+            <tr>
+                <td>2017</td><td>Ca. $1000</td>
+            </tr>
+            <tr>
+                <td>2018</td><td>Ca. $13 600</td>
+            </tr>
+            <tr>
+                <td>2019</td><td>Ca. $3700</td>
+            </tr>
+            <tr>
+                <td>2020</td><td>Ca. $7300</td>
+            </tr>
+            <tr>
+                <td>2021</td><td>Ca. $27 000</td>
+            </tr>
+        </table> 
+      </div>
+      </div>
+
+
+    <footer>
+      <h2 class="fotRubrik">Kontakta oss</h2><br>
+
+      <p class="fotText">
+        Mailadress: kryptoproffset@gmail.com
+      </p><br>
+
+      <p class="fotText">
+        Telefon: 031-123 45 67
+      </p><br>
+
+
+    </footer>
+
+  </body>
+</html>

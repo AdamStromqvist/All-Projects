@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="0..*">
+    <Position X="11.892" Y="8.116" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="7.802" Y="3.398" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="10.587" Y="8.157" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="9.764" Y="8.157" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="8.81" Y="8.183" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="7.856" Y="8.196" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="6.628" Y="8.17" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="5.909" Y="8.17" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="4.719" Y="8.183" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="4.001" Y="8.157" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..*">
+    <Position X="2.968" Y="8.157" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="10.117" Y="6.34" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="9.686" Y="6.628" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.967" Y="6.562" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8" Y="6.118" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="7.087" Y="6.224" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.603" Y="6.603" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.028" Y="6.878" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="4.93" Y="6.459" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="4.669" Y="5.636" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="9.581" Y="5.373" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.627" Y="4.171" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.327" Y="5.36" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.288" Y="4.171" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.575" Y="3.426" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.275" Y="3.465" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="7.046" Y="3.4" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="10.613" Y="5.87" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="11.409" Y="2.666" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.521" Y="2.653" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.364" Y="2.705" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="3.45" Y="2.692" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="11.37" Y="1.66" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.482" Y="1.647" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.338" Y="1.634" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="3.489" Y="1.647" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.599" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.195" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="8.495" Y="1.137" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="1..1">
+    <Position X="6.364" Y="1.176" Height="0.291" Width="0.7" />
+  </Comment>
+  <Class Name="OOSU2_Laboration1_AAAV.EntetiesLayer.Employee" Collapsed="true">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAAAAAAAAAAAAAAAAAAAAAACAIAgAAAAAFA=</HashCode>
+      <FileName>EntetiesLayer\Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DB" />
+      <Property Name="Repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.EntetiesLayer.Patient" Collapsed="true">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAICAQAAAAAAAAAAAAAAAAAAgAACAAAAAgAAABE=</HashCode>
+      <FileName>EntetiesLayer\Patient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Repository" />
+      <Property Name="DB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.EntetiesLayer.MedicinePrescription" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAQAAAAAAAAAACAAAAIAAAAAAAAIAAAAAABA=</HashCode>
+      <FileName>EntetiesLayer\MedicinePrescription.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Repository" />
+      <Property Name="DB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.EntetiesLayer.DoctorAppointment" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAQAAAAAAAAAAAAAAAAAAAABBIAAAAAAAARA=</HashCode>
+      <FileName>EntetiesLayer\DoctorAppointment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DB" />
+      <Property Name="Repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.EntetiesLayer.Diagnosis" Collapsed="true">
+    <Position X="9" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMAAQAAAAAAAAAAAAAAAAAACAABAAAAAAAAABA=</HashCode>
+      <FileName>EntetiesLayer\Diagnosis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DB" />
+      <Property Name="Repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.DataLayer.Repository&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAIAAAAAAAAAAAABAQAAAAIgAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DataLayer\Repository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UnitOfWork" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.DataLayer.DataLayer.UnitOfWork" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgIAACAAQAAABAAAAAQAAAAAAABAAAAAAQAAAAAA=</HashCode>
+      <FileName>DataLayer\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PatientManager" />
+      <Property Name="MedicinePrescriptionManager" />
+      <Property Name="DoctorAppointmentManager" />
+      <Property Name="DiagnosisManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.BusinessLayer.DiagnosisManager" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DiagnosisManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.BusinessLayer.DoctorAppointmentManager" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAEAAAAAAAACAEAAAAAAQAAAABAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DoctorAppointmentManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.BusinessLayer.MedicinePrescriptionManager" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\MedicinePrescriptionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.BusinessLayer.PatientManager" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABACAAAAAAAAACAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\PatientManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.PresentationLayer.Program" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAABACEAAIEAAAAAAAgABBAAAAAAEBQAAAAA=</HashCode>
+      <FileName>PresentationLayer\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSU2_Laboration1_AAAV.DataLayer.DB" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAAAAAAAAAAAAAAAAAAAAEAgAAABAAAAAAAAAA=</HashCode>
+      <FileName>DataLayer\DB.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UnitOfWork" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

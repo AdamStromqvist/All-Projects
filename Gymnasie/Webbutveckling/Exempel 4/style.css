@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+}
+
+p {
+    color: red;
+    background-color: aqua;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+h2, h1 {
+    color: blue;
+    font-family: 'Black Han Sans', sans-serif;
+}

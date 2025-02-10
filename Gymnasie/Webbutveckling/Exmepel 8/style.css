@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+.ruta1 {
+    max-width: 60rem;
+    background-color: lightslategray;
+    margin: auto;
+    padding: 1rem;
+
+    border: solid 5px black;
+    border-radius: 0.5rem;
+    border-right: dashed 10px red;
+}
+
+.ruta2 {
+    background-color: lightgreen;
+    width: 50%;
+    display: inline-block;
+    padding: 1rem;
+    box-sizing: border-box;
+}
